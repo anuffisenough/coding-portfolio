@@ -1,6 +1,6 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
-import IconHeadshot from '../../assets/images/IconHeadshot.png';
+import InitialsLogo from '../../assets/images/InitialsLogo2.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser, faSuitcase, faBars, faClose, faFile } from '@fortawesome/free-solid-svg-icons';
@@ -13,7 +13,7 @@ const Sidebar = () => {
     return (
     <div className="nav-bar">
         <Link className="logo" to='/'>
-            <img src={IconHeadshot} alt="logo"/>
+            <img src={InitialsLogo} alt="logo"/>
             {/* <img className="sub-logo" src={LogoSubtitle} alt="logo"/> */}
         </Link>
         <nav className={showNav ? 'mobile-show' : ' '}>
