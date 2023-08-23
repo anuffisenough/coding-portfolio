@@ -1,10 +1,12 @@
 import RESUME_PDF from "../../assets/images/c_uffman_resume_8_21_23.pdf";
 import React from "react";
+import Loader from 'react-loaders';
 import './index.scss';
 
 const FileViewer = () => {
 
     return (
+        <>
         <div className="file-viewer">
             <iframe
                 title="PDF"
@@ -13,6 +15,8 @@ const FileViewer = () => {
                 height="1000px"
                 ></iframe>
         </div>
+        <Loader type="pacman"/>
+        </>
     )
 }
 
