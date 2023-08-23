@@ -6,17 +6,15 @@ import './index.scss';
 const FileViewer = () => {
 
     return (
-        <>
+
         <div className="file-viewer">
             <iframe
                 title="PDF"
                 src={`/pdfjs-3.9.179-dist/web/viewer.html?file=${RESUME_PDF}`}
-                width="100%"
+                width="60%"
                 height="1000px"
                 ></iframe>
         </div>
-        <Loader type="pacman"/>
-        </>
     )
 }
 

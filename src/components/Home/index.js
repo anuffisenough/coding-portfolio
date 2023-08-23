@@ -32,7 +32,7 @@ const Home = () => {
                 <span className={`${letterClass} _15`}>'</span>
                 <span className={`${letterClass} _16`}>m</span>
                 <span className={`${letterClass} _17`}> </span>
-
+                <br className="screen-break-br" />
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
                 idx={18} />
