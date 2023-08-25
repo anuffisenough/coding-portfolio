@@ -24,8 +24,8 @@
             color: #ffd700;
             font-size: 18px;
             position: absolute;
-            margin-top: -40px;
-            left: 15px;
+            margin-top: -20px;
+            left: 0px;
             opacity: 0.6;
         }
 
@@ -35,8 +35,8 @@
             color: #ffd700;
             font-size: 18px;
             position: absolute;
-            margin-top: 18px;
-            margin-left: 20px;
+            margin-top: -5px;
+            margin-left: 0px;
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
         }
@@ -53,7 +53,7 @@
 
     h2 {
         color: #8d8d8d;
-        margin-top: 20px;
+        margin-top: 40px;
         font-weight: 400;
         font-size: 11px;
         font-family: sans-serif;
@@ -82,47 +82,47 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .tags,
-    .home-page h1::before, 
-    .home-page h1::after {
-        display: none;
-    }
+// @media screen and (max-width: 1200px) {
+//     .tags,
+//     .home-page h1::before, 
+//     .home-page h1::after {
+//         display: none;
+//     }
 
-    .home-page {
-        .text-zone {
-            position: initial;
-            width: 100%;
-            transform: none;
-            padding: 10px;
-            box-sizing: border-box;
-        }
+//     .home-page {
+//         .text-zone {
+//             position: initial;
+//             width: 100%;
+//             transform: none;
+//             padding: 10px;
+//             box-sizing: border-box;
+//         }
 
-        .flat-button {
-            float: none;
-            display: block;
-            margin: 20px auto 0 auto;
-            width: 125px;
-        }
+//         .flat-button {
+//             float: none;
+//             display: block;
+//             margin: 20px auto 0 auto;
+//             width: 125px;
+//         }
 
-        .logo-container {
-            position: relative;
-            width: 100px;
-            height: auto;
-            top: 50px;
-            right: 0;
-            box-sizing: border-box;
-            margin: auto;
-            left: 0;
+//         .logo-container {
+//             position: relative;
+//             width: 100px;
+//             height: auto;
+//             top: 50px;
+//             right: 0;
+//             box-sizing: border-box;
+//             margin: auto;
+//             left: 0;
 
-            svg {
-                position: absolute;
-                top: auto;
-                right: auto;
-                bottom: auto;
-                left: 0;
-                margin: auto;
-            }
-        }
-    }
-}
+//             svg {
+//                 position: absolute;
+//                 top: auto;
+//                 right: auto;
+//                 bottom: auto;
+//                 left: 0;
+//                 margin: auto;
+//             }
+//         }
+//     }
+// }

@@ -27,12 +27,12 @@ const Home = () => {
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _12`}>i</span>
                 <span className={`${letterClass} _13`}>!</span>
-                <br />
-                <span className={`${letterClass} _14`}>I</span>
-                <span className={`${letterClass} _15`}>'</span>
-                <span className={`${letterClass} _16`}>m</span>
-                <span className={`${letterClass} _17`}> </span>
-                <br className="screen-break-br" />
+                <span className={`${letterClass} _14`}> </span>
+                <span className={`${letterClass} _15`}>I</span>
+                <span className={`${letterClass} _16`}>'</span>
+                <span className={`${letterClass} _17`}>m</span>
+                <span className={`${letterClass} _18`}> </span>
+                {/* <br className="screen-break-br" /> */}
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
                 idx={18} />
@@ -41,6 +41,7 @@ const Home = () => {
                 <AnimatedLetters letterClass={letterClass}
                 strArray={jobArray}
                 idx={30} />
+                <br />
                 </h1>
                 <h2>Full-Stack Development / Account Management / Coaching</h2>
                 <Link to="/contact" className="flat-button">Contact Me</Link>
