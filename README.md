@@ -18,15 +18,15 @@
 
 ### Images
 
-[Screenshot of Home/Landing Page]
+[Screenshot of Home/Landing Page](/src/assets/images/PortfolioHome.png)
 
-[Screenshot of About Page]
+[Screenshot of About Page](/src/assets/images/PortfolioAbout.png)
 
-[Screenshot of Resume Page]
+[Screenshot of Resume Page](/src/assets/images/PortfolioResume.png)
 
-[Screenshot of Portfolio Page]
+[Screenshot of Portfolio Page](/src/assets/images/PortfolioPortfolioPage.png)
 
-[Screenshot of Contact Page]
+[Screenshot of Contact Page](/src/assets/images/PortfolioContact.png)
 
 ## Credits
 
