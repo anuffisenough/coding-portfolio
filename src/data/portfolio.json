@@ -13,6 +13,18 @@
             "url": "https://serene-cove-30368.herokuapp.com/"
         },
         {
+            "cover": "/portfolio/GoogleBooksSearch/BookSearchEngineScreenshot.png",
+            "title": "Google Books Search",
+            "description": "Refactored RESTful API search page to utilize GraphQL API, MERN stack, Apollo Server",
+            "url": "https://book-search-engine-project.herokuapp.com/"
+        },
+        {
+            "cover": "/portfolio/WorkDayScheduler/WorkDaySchedulerScreenshot.png",
+            "title": "Work Day Scheduler",
+            "description": "Local Storage, Day.js",
+            "url": "https://anuffisenough.github.io/Third_Party_API_Challenge/"
+        },
+        {
             "cover": "/portfolio/Cardify/CardifyHomePage.png",
             "title": "Cardify",
             "description": "JavaScript, React, GraphQL, JWT, MongoDB, Heroku",
