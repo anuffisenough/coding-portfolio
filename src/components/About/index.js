@@ -30,11 +30,11 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>I am invigorated by finding new ways to solve problems and improve outcomes. This has been true in my previous career fields, and I look to continuing those efforts with new skills I have acquired in the world of programming.
+                <p>I am invigorated by finding new ways to solve problems and improve outcomes. This drive was cultivated in me through years as a collegiate coach and later as an admission counselor. I hope to build on these efforts with new skills I have acquired in the world of programming.
                 </p>
                 <p>My formal academic journey has provided me with deep insights into the unique considerations of adult learners, beginning with a Bachelor's degree in Psychology and culminating with a Master’s degree in Education, concentrating on Leadership in Adult and Organizational Learning. My graduate work focused on educational culture and hierarchy, which helped me to better understand my value within the organizational structures of higher education. Additionally, the leadership component has highlighted my strengths in the areas of connectedness, responsibility, and communication. Most recently, my completion of the Full Stack Web Development Certification through Southern Methodist University CAPE has equipped me with the understanding of front and back-end technologies and solutions, allowing for an even wider range of problem solving competencies.
                 </p>
-                <p>I look forward to the chance to immerse myself in a culture where common goals and philosophies are shared among individuals at all levels.
+                <p>I look forward to immersing myself in a culture where common goals and philosophies are shared among individuals at all levels.
                 </p>
             </div>
             <div className='stage-cube-cont'>
