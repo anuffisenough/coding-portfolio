@@ -52,7 +52,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in programming opportunities or freelance work that utilize front-end, back-end, or full-stack development skills.
+                        I am interested in programming opportunities or freelance work that utilizes front-end, back-end, or full-stack development skills.
                     </p>
                     <p>
                         Please send me a message if I can help your company or project.
