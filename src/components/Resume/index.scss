@@ -5,3 +5,10 @@
 .resume-loader {
     color: #181818;
 }
+
+@media screen and (max-width: 1280px) {
+    iframe {
+        width: 100%;
+        overflow: visible;
+    }
+}

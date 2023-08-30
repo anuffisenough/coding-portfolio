@@ -118,29 +118,29 @@
     }
 }
 
-// @media screen and (max-width: 1200px) {
-//     .container.portfolio-page {
-//         width: 100%;
-//         padding: 20px;
-//         box-sizing: border-box;
+@media screen and (max-width: 1280px) {
+    .container.portfolio-page {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
 
-//         h1.page-title {
-//             margin-left: 20px;
-//             margin-top: 20px;
-//         }
+        h1.page-title {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
 
-//         .image-box {
-//             height: 200px;
-//             max-width: calc(50% - 10px);
+        .image-box {
+            height: 200px;
+            max-width: calc(50% - 10px);
 
-//             .content {
-//                 bottom: -120px;
+            .content {
+                bottom: -120px;
 
-//                 &:hover {
-//                     bottom: 0;
-//                 }
-//             }
+                &:hover {
+                    bottom: 0;
+                }
+            }
 
-//         }
-//     }
-// }
+        }
+    }
+}

@@ -120,15 +120,16 @@
     animation-fill-mode: forwards;
 }
 
-// @media screen and (max-width: 1200px) {
-//     .map-wrap {
-//         float: none;
-//         width: 100%;
-//         height: 400px;
-//         margin: 0;
-//     }
+@media screen and (max-width: 1280px) {
+    .map-wrap {
+        float: none;
+        width: 100%;
+        height: 400px;
+        margin: 0;
+        overflow: visible;
+    }
 
-//     .info-map {
-//         display: none;
-//     }
-// }
+    .info-map {
+        display: none;
+    }
+}
