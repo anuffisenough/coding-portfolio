@@ -8,7 +8,8 @@ import Logo from './Logo';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['C', 'h', 'r', 'i', 's', 't', 'o', 'p', 'h', 'e', 'r']
-    const jobArray = ['F', 'u', 'l', 'l', '-', 'S', 't', 'a', 'c', 'k', ' ', 'W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']    
+    const firstJobArray = ['F', 'u', 'l', 'l', '-', 'S', 't', 'a', 'c', 'k', ' ']   
+    const secondJobArray = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'] 
     
     useEffect(() => {
         let timeout = setTimeout(() => {
@@ -28,6 +29,7 @@ const Home = () => {
                 <span className={`${letterClass} _12`}>i</span>
                 <span className={`${letterClass} _13`}>!</span>
                 <span className={`${letterClass} _14`}> </span>
+                <br className="responsive-break-1" />
                 <span className={`${letterClass} _15`}>I</span>
                 <span className={`${letterClass} _16`}>'</span>
                 <span className={`${letterClass} _17`}>m</span>
@@ -39,7 +41,11 @@ const Home = () => {
                 <span className={`${letterClass} _29`}>,</span>
                 <br />
                 <AnimatedLetters letterClass={letterClass}
-                strArray={jobArray}
+                strArray={firstJobArray}
+                idx={30} />
+                <br className="responsive-break-2"/>
+                <AnimatedLetters letterClass={letterClass}
+                strArray={secondJobArray}
                 idx={30} />
                 <br />
                 </h1>

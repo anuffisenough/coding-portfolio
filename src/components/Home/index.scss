@@ -83,10 +83,28 @@
     }
 }
 
+.responsive-break-1 {
+    display: none;
+}
+
+.responsive-break-2 {
+    display: none;
+}
+
+@media screen and (max-width: 1415px) {
+    .responsive-break-2 {
+        display: inline;
+    }
+}
+
 @media screen and (max-width: 1280px) {
     .tags,
     .home-page h1::before, 
     .home-page h1::after {
+        display: none;
+    }
+
+    .responsive-break-2 {
         display: none;
     }
 
@@ -104,6 +122,7 @@
             display: block;
             margin: 20px auto 0 auto;
             width: 125px;
+            float: left;
         }
 
         .logo-container {
@@ -125,5 +144,17 @@
                 margin: auto;
             }
         }
+    }
+}
+
+@media screen and (max-width: 606px) {
+    .responsive-break-2 {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .responsive-break-1 {
+        display: inline;
     }
 }

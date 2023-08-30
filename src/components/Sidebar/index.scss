@@ -189,9 +189,9 @@
         .hamburger-icon,
         .close-icon {
             display: block;
-            position: absolute;
+            position: fixed;
             top: 15px;
-            right: 15px;
+            right: 5%;
         }
     }
 }
