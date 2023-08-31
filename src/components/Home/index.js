@@ -46,7 +46,7 @@ const Home = () => {
                 <br className="responsive-break-2"/>
                 <AnimatedLetters letterClass={letterClass}
                 strArray={secondJobArray}
-                idx={30} />
+                idx={41} />
                 <br />
                 </h1>
                 <h2>Full-Stack Development / Account Management / Coaching</h2>
