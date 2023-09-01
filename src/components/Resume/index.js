@@ -1,4 +1,4 @@
-import RESUME_PDF from "../../assets/images/c_uffman_resume_8_21_23.pdf";
+import RESUME_PDF from "../../assets/images/C_Uffman_WebDev_Resume_9_1_23.pdf";
 import React from "react";
 import Loader from 'react-loaders';
 import './index.scss';
