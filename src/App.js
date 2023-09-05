@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import FileViewer from './components/Resume';
+import Tests from './components/Tests';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="resume" element={<FileViewer />} />
+          <Route path="tests" element={<Tests />} />
         </Route>
       </Routes>
     </>
